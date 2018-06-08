@@ -30,9 +30,9 @@ app.get('/about', (req, res) => {
    });
 });
 
-app.get('/portfolio', (req, res) => {
-   res.render('portfolio.hbs', {
-       pageTitle: 'Portfolio Page',      
+app.get('/projects', (req, res) => {
+   res.render('projects.hbs', {
+       pageTitle: 'Projects',      
    });
 })
 
